@@ -6,7 +6,7 @@ mod.config={
   find_hangout_key = {{"ctrl", "alt"}, 'h'}
 }
 
--- Toggle Skype between muted/unmuted, whether it is focused or not
+-- Find the Hangout window/tab and focus it
 function mod.findHangout()
   local found = false
   local chrome = hs.appfinder.appFromName("Google Chrome")
